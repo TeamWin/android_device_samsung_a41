@@ -1,33 +1,47 @@
-# Samsung Galaxy A41 [SM-A415F] [a41xx] - Team Win Recovery Project
+# TWRP Device configuration for Samsung Galaxy A41
+
+## Device specifications :
+
+Basic    | Spec Sheet
+--------:|:----------------------
+Chipset  | MediaTek Helio P65
+CPU      | Octa-core (Cortex-A55 , Cortex-A75)
+GPU      | Mali-G52 MC2
+Memory   | 4GB , 8GB RAM (LPDDR3 , LPDDR4X)
+Storage  | 64GB
+Support Model | SM-A415F (global) , SCV48 (jp) , SC-41A (jp) 
+Shipped Android version | Android 10 , OneUI 2.5
+Codename | a41xx
+Battery  | Li-Poly 5000mAh , non-removable
+Display  | LCD , 60Hz , 6.1 inch , 1080 × 2400 pixels , 20:9 ratio
+
 [Telegram Support Group](https://t.me/a31nsxx)
+
+## Status :
+
 ```diff
-+ TWRP Status: Mostly Stable. 
-- Releases tagged as "Pre-release" are considered experimental and may cause more unexpected stuff than the latest release, nobody is forced to support your in older releases.
++ Mostly Stable.
+- Releases tagged as "Pre-release" are considered experimental and may cause more unexpected stuff than the latest release , nobody is forced to support your in older releases.
 ```
+## Theme :
+
+Set the ``TW_CUSTOM_THEME`` flag for a custom theme.
+
+## How to Compile :
 
 ```
-git clone https://github.com/EdwinT2/android_device_samsung_a41xx -b android-12.1 device/samsung/a41
-
 source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a41-eng; mka recoveryimage
 ```
 
-### Special thanks to:
-> [TeamWin](https://github.com/TeamWin) for the Recovery Project.
-> 
-> [Physwizz](https://github.com/physwizz) for his [A415f-S kernel](https://github.com/physwizz/A415f-S) (ligther version was used on this tree).
->
-> [Zillion](https://github.com/DevZillion) for doing the device tree.
->
-> [Edwin's](https://github.com/EdwinT2) for fix some issue.
+## How to install :
 
-### How to install
-> Flash the latest .tar release from [releases](https://github.com/Galaxy-MT6768/android_device_samsung_a41xx/releases), it may require Magisk patched vbmeta.img
-> 
-> Hold the recovery combination (Volume Up + Power) while the .tar is flashing via the odin tool.
-> 
-> You can now boot into your system and do whatever you want.
+> - Flash the latest .tar release from [releases](https://github.com/Galaxy-MT6768/teamwin_device_samsung_a41xx/releases), it may require Magisk patched vbmeta.img
+>
+> - Hold the recovery combination (Volume Up + Power) while the .tar is flashing via the odin tool.
+>
+> - You can now boot into your system and do whatever you want.
 
-### Working Features List
+## Working Features List :
 >
 > - [x] Critial Partitions fail to unlock
 >
@@ -61,6 +75,16 @@ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a41
 > - [x] input devices via USB (USB-OTG) - keyboard, mouse and disks
 > - [ ] USB mass storage export
 > - [x] set brightness
-> - [] vibrate
+> - [ ] vibrate
 > - [x] screenshot
 > - [ ] partition SD card
+
+## Special thanks to :
+
+> [TeamWin](https://github.com/TeamWin) for the Recovery Project.
+> 
+> [Physwizz](https://github.com/physwizz) for his [a145f-S kernel](https://github.com/physwizz/A415f-S) (ligther version was used on this tree).
+>
+> [Zillion](https://github.com/DevZillion) for owner the device tree.
+>
+> [Edwin's](https://github.com/EdwinT2) for config.
