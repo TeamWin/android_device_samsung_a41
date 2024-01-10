@@ -1,0 +1,4 @@
+ro.display.series=Samsung A41
+sys.usb.controller=musb-hdrc
+ro.boot.dynamic_partitions=true
+ro.boot.boot_devices=bootdevice,soc/11230000.mmc,11230000.mmc,soc/11270000.ufshci,11270000.ufshci
