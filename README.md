@@ -12,7 +12,7 @@ Storage  | 64GB
 Support Model | SM-A415F (global) , SCV48 (jp) , SC-41A (jp) 
 Shipped Android version | Android 10 , OneUI 2.5
 Codename | a41xx
-Battery  | Li-Poly 5000mAh , non-removable
+Battery  | Li-Poly 3500mAh , non-removable
 Display  | LCD , 60Hz , 6.1 inch , 1080 × 2400 pixels , 20:9 ratio
 
 [Telegram Support Group](https://t.me/a31nsxx)
